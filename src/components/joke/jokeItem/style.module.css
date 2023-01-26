@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 1px solid #e5e4e1;
+  padding: 3px 10px;
+}
+
+.scoreWrapper {
+  display: flex;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.upBtn,
+.downBtn {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  color: #8b8f89;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.upBtn:hover,
+.downBtn:hover {
+  transform: scale(1.2);
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid red;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #8b8f89;
+  font-weight: 400;
+  box-shadow: rgb(38, 57, 77) 0px 16px 30px -10px;
+}
+
+.joke {
+  flex: 5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.icon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.icon img {
+  width: 52px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 50%;
+}
